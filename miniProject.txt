@@ -1,0 +1,346 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/marks2"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="225dp"
+        android:layout_y="300dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="134dp"
+        android:layout_alignLeft="@id/imageView"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <TextView
+        android:layout_width="269dp"
+        android:layout_height="77dp"
+        android:layout_alignParentRight="true"
+        android:text="Gayatri Vidya Parishad College of Engineering for Women "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login:"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="44dp"
+        android:layout_x="30dp"
+        android:layout_y="223dp"
+        android:text="Enter Student Rollno:"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="229dp"
+        android:layout_y="242dp"
+        android:inputType="number"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:layout_x="35dp"
+        android:layout_y="297dp"
+        android:text="Enter Student Name:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="225dp"
+        android:layout_y="300dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:layout_x="35dp"
+        android:layout_y="297dp"
+        android:text="Enter Student marks:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="225dp"
+        android:layout_y="300dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="297dp"
+        android:text="BRANCH:"
+        android:textColor="#0B0A0A"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="297dp"
+        android:text="SEMESTER:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="154dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="15dp"
+        android:layout_y="540dp"
+        android:background="@color/white"
+        android:text="insert"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="911dp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="154dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="15dp"
+        android:layout_y="540dp"
+        android:background="@color/white"
+        android:text="View"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="965dp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="146dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="212dp"
+        android:layout_y="535dp"
+        android:background="@color/white"
+        android:text="Delete"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="965dp" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="220dp"
+        android:layout_y="472dp"
+        android:text="Update"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="901dp" />
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_x="105dp"
+        android:layout_y="615dp"
+        android:text="View All"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="1064dp" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="192dp">
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Insert"
+        android:layout_marginBottom="291dp">
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="2-2"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <RadioButton
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="4-1"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <RadioButton
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="1-2"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <RadioButton
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="1-1"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <RadioButton
+        android:id="@+id/six"
+        android:layout_width="59dp"
+        android:layout_height="31dp"
+        android:text="3-2"
+        tools:layout_editor_absoluteX="397dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <RadioButton
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="2-1"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <RadioButton
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="4-2"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <RadioButton
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="3-1"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <RadioButton
+        android:id="@+id/ece"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:text="ECE"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <RadioButton
+        android:id="@+id/csm"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:text="CSM"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <RadioButton
+        android:id="@+id/eee"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+        android:text="EEE"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <RadioButton
+        android:id="@+id/it"
+        android:layout_width="69dp"
+        android:layout_height="33dp"
+        android:text="IT"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="410dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <RadioButton
+        android:id="@+id/cse"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
+        android:text="CSE"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+
+</RelativeLayout>
